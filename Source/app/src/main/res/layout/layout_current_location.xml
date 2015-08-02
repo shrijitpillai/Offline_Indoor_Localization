@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#e8eaf6">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:background="#3f51b5"
+        android:id="@+id/relativeLayout_for_listView">
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_select_floor"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#64DD17"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Please select a sign"
+            android:id="@+id/text_choose_sign"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_for_select_sign"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="110dp"
+        android:layout_below="@+id/relativeLayout_for_listView"
+        android:layout_alignLeft="@+id/relativeLayout_for_listView"
+        android:layout_alignStart="@+id/relativeLayout_for_listView"
+        android:layout_alignRight="@+id/relativeLayout_for_listView"
+        android:background="#3f51b5"
+        android:visibility="invisible">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:cursorVisible="true"
+            android:textColor="#ffffff"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:imeOptions="actionGo"
+            android:ems="10"
+            android:inputType="textAutoComplete|textAutoCorrect"
+            android:id="@+id/auto_complete_sign_selection"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

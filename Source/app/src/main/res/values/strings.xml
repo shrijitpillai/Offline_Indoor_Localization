@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IndoorLocalization</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="building_name">Enter the name of building you are in</string>
+    <string name="text_most_popular">Most Visited</string>
+    <string name="current_location">Your Location</string>
+    <string name="navigate">Navigate</string>
+
+    <string-array name="all_buildings">
+        <item>Indiana Memorial Union</item>
+        <item>Wells Library</item>
+        <item>Kelley Business School</item>
+        <item>Informatics East</item>
+        <item>Hodge Hall</item>
+        <item>Jordan Hall</item>
+        <item>Maurer School of Law</item>
+        <item>Jacobs School of Music</item>
+        <item>SRSC Building</item>
+        <item>Health Center</item>
+        <item>Lilly Library</item>
+        <item>Woodburn Hall</item>
+        <item>Ballantine Hall</item>
+        <item>Memorial Hall</item>
+        <item>Swain Library</item>
+    </string-array>
+    <string-array name="popular_buildings_list">
+        <item>Indiana Memorial Union</item>
+        <item>Wells Library</item>
+        <item>Kelley Business School</item>
+        <item>Informatics East</item>
+        <item>Jordan Hall</item>
+        <item>Maurer School of Law</item>
+        <item>Jacobs School of Music</item>
+        <item>Woodburn Hall</item>
+        <item>Ballantine Hall</item>
+    </string-array>
+
+    <string-array name="floor_number">
+        <item>Select</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+        <item>Floor 5</item>
+    </string-array>
+</resources>

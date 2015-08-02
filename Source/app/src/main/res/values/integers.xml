@@ -1,0 +1,4 @@
+<resources>
+    <integer name="locator_flip_time_full">1200</integer>
+    <integer name="locator_flip_time_half">600</integer>
+</resources>
